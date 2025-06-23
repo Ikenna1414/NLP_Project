@@ -19,7 +19,7 @@ This project fine-tunes a pre-trained language model to **predict the sentiment 
 
 ---
 
-## 🤗 Pre-trained Model
+## Pre-trained Model
 
 - **Model**: `distilbert-base-uncased`
 - **Why Chosen**:
@@ -33,7 +33,7 @@ This project fine-tunes a pre-trained language model to **predict the sentiment 
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric        | Value   |
 |---------------|---------|
@@ -106,7 +106,7 @@ As part of the project, we’ve applied ethical thinking throughout development:
 ```
 
 
-## 🧭 Future Work
+## Future Work
 
 - **Add Explainability**  
   Integrate tools like SHAP or LIME to interpret model predictions and explain how different tokens contribute to the sentiment classification.
@@ -128,7 +128,7 @@ As part of the project, we’ve applied ethical thinking throughout development:
 
 ---
 
-## 🏁 Summary
+## Summary
 
 This project demonstrates the complete pipeline of fine-tuning and deploying a transformer-based sentiment classifier using the IMDb movie review dataset. Starting from text preprocessing and representation (BoW/TF-IDF) through transformer tokenization, we fine-tuned `distilbert-base-uncased` using Hugging Face’s `Trainer` API and deployed the model via the Hugging Face Inference API.
 
